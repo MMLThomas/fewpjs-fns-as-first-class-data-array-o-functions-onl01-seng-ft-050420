@@ -37,18 +37,37 @@ function wakeDog(dogName, dogBreed) {
 
 
 let routine = [
+<<<<<<< HEAD
   wakeDog,
   leashDog,
   walkToPark,
   throwFrisbee,
   walkHome,
   unleashDog
+=======
+  function wakeDog(dogName, dogBreed),
+  
+  function leashDog(dogName, dogBreed),
+
+  function walkToPark(dogName, dogBreed),
+
+  function throwFrisbee(dogName, dogBreed),
+
+  function walkHome(dogName, dogBreed),
+
+  function unleashDog(dogName, dogBreed)
+>>>>>>> 6706c24f378decdc19e0eca013944e352c3293db
   ]
   
   function exerciseDog(dogName, dogBreed){
     let new_array = []
+<<<<<<< HEAD
     for(let i=0; i < routine.length; i++){
       new_array += routine[i](dogName, dogBreed);
+=======
+    for(i=0; i < routine.length; i++){
+      new_array.append(routine[i](dogName, dogBreed));
+>>>>>>> 6706c24f378decdc19e0eca013944e352c3293db
     }
     return new_array
   }
